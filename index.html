@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duplicate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <form class="form" id="data">
+                <div class="column">
+                    <div class="title">Нікнейм 👐</div>
+                    <div class="content">
+                        <input type="text" value="" id="nickname">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="title">Кількість квиточків 🎫</div>
+                    <div class="content">
+                        <input type="text" value="" id="amount">
+                    </div>
+                </div>
+                <div class="column center">
+                    <button class="btn medium" id="copyButton" type="submit">Копіювати</button>
+                </div>
+            </form>
+            <div class="output">
+                <div class="column">
+                    <div class="title">Вихід:</div>
+                    <div class="content">
+                        <textarea id="output" readonly></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="notification" id="copied">Скопійовано!</div>
+            <div class="text">Created by <span class="colorized">GANSOMANIA</span>©</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
