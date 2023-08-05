@@ -51,6 +51,8 @@ const duplicate = () => {
             notification.hidden = false;
             timeout = setTimeout(() => notification.hidden = true, 2000);
         });
+    nickname.value = '';
+    amount.value = '';
 }
 
 if (data) {
